@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 username = api.me().screen_name
 
 # Get the list of users you follow
-following = set(api.friends_ids(username))
+following = set(api.friends_ids(lamachine_sk))
 
 # Get the list of users who follow you
 followers = set(api.followers_ids(username))
